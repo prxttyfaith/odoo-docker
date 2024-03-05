@@ -12,8 +12,10 @@
 ``` sudo -i
 curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
-docker compose version
+docker-compose version
 ```
+
+## Install Odoo using docker-compose
 
 ### Git clone
 
@@ -25,7 +27,7 @@ cp odoo_pg_pass.example odoo_pg_pass
 optional: change the value in odoo_pg_pass
 ```
 
-### Build and run Odoo on docker using docker compose
+### Build and run Odoo using docker compose
 ```
 docker-compose up -d
 ```
