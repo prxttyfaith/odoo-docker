@@ -1,9 +1,9 @@
 
-#Odoo Docker
+# Odoo Docker
 
-## Dependencies of running Odoo on MacOS
+## Dependencies of running Odoo Docker on MacOS
 
-###Install docker
+### Install docker
 
 ```https://docs.docker.com/desktop/install/mac-install/```
 
