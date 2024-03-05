@@ -20,10 +20,8 @@ docker compose version
 ```
 git clone https://github.com/prxttyfaith/odoo-docker.git
 cd odoo-docker/
-```
+cp odoo_pg_pass.example odoo_pg_pass
 
-### cp odoo_pg_pass.example odoo_pg_pass
-```
 optional: change the value in odoo_pg_pass
 ```
 
